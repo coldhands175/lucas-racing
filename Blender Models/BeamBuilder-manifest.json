@@ -1,0 +1,2090 @@
+{
+  "asset": "BeamBuilder",
+  "blender_version": "5.2.0 LTS",
+  "units": "metres",
+  "blender_forward": "-X",
+  "blender_up": "Z",
+  "fbx_axis_forward": "-Z",
+  "fbx_axis_up": "Y",
+  "neutral_pose_frame": 1,
+  "source_chassis": {
+    "filename": "Blender Models/Reusable-Monster-Chassis.blend",
+    "sha256": "6515f3b76d1256f53fd5e094f3516e09d94d71e0d1cd7ca81e271eeab43f2b1e"
+  },
+  "reference": {
+    "selected": "L2",
+    "filename": "Blender Models/Vehicle Concepts/Laser-Car-Choices.png"
+  },
+  "source_wheel_centres_m": {
+    "FL": [
+      -1.4800000190734863,
+      -1.5199999809265137,
+      1.0850000381469727
+    ],
+    "FR": [
+      -1.4800000190734863,
+      1.5199999809265137,
+      1.0850000381469727
+    ],
+    "RL": [
+      1.4800000190734863,
+      -1.5199999809265137,
+      1.0850000381469727
+    ],
+    "RR": [
+      1.4800000190734863,
+      1.5199999809265137,
+      1.0850000381469727
+    ]
+  },
+  "suspension": {
+    "FL": {
+      "upper_centre_m": [
+        -1.4800000190734863,
+        -0.9399999976158142,
+        2.2220001220703125
+      ],
+      "lower_centre_m": [
+        -1.4800000190734863,
+        -0.9399999976158142,
+        1.2705999612808228
+      ],
+      "rest_length_m": 0.9514001654600939,
+      "source_shock_pivot_m": [
+        -1.4800000190734863,
+        -0.9399999976158142,
+        1.149999976158142
+      ],
+      "source_shock_scale": [
+        1.0,
+        1.0,
+        1.340000033378601
+      ],
+      "source_shock_perch_local_z": [
+        0.09,
+        0.8
+      ],
+      "upper_parent": "sprung_body",
+      "lower_parent": "FRONT_axle",
+      "mesh_separable_from_body": true,
+      "spring_piston_damper_combined": true
+    },
+    "FR": {
+      "upper_centre_m": [
+        -1.4800000190734863,
+        0.9399999976158142,
+        2.2220001220703125
+      ],
+      "lower_centre_m": [
+        -1.4800000190734863,
+        0.9399999976158142,
+        1.2705999612808228
+      ],
+      "rest_length_m": 0.9514001654600939,
+      "source_shock_pivot_m": [
+        -1.4800000190734863,
+        0.9399999976158142,
+        1.149999976158142
+      ],
+      "source_shock_scale": [
+        1.0,
+        1.0,
+        1.340000033378601
+      ],
+      "source_shock_perch_local_z": [
+        0.09,
+        0.8
+      ],
+      "upper_parent": "sprung_body",
+      "lower_parent": "FRONT_axle",
+      "mesh_separable_from_body": true,
+      "spring_piston_damper_combined": true
+    },
+    "RL": {
+      "upper_centre_m": [
+        1.4800000190734863,
+        -0.9399999976158142,
+        2.2220001220703125
+      ],
+      "lower_centre_m": [
+        1.4800000190734863,
+        -0.9399999976158142,
+        1.2705999612808228
+      ],
+      "rest_length_m": 0.9514001654600939,
+      "source_shock_pivot_m": [
+        1.4800000190734863,
+        -0.9399999976158142,
+        1.149999976158142
+      ],
+      "source_shock_scale": [
+        1.0,
+        1.0,
+        1.340000033378601
+      ],
+      "source_shock_perch_local_z": [
+        0.09,
+        0.8
+      ],
+      "upper_parent": "sprung_body",
+      "lower_parent": "REAR_axle",
+      "mesh_separable_from_body": true,
+      "spring_piston_damper_combined": true
+    },
+    "RR": {
+      "upper_centre_m": [
+        1.4800000190734863,
+        0.9399999976158142,
+        2.2220001220703125
+      ],
+      "lower_centre_m": [
+        1.4800000190734863,
+        0.9399999976158142,
+        1.2705999612808228
+      ],
+      "rest_length_m": 0.9514001654600939,
+      "source_shock_pivot_m": [
+        1.4800000190734863,
+        0.9399999976158142,
+        1.149999976158142
+      ],
+      "source_shock_scale": [
+        1.0,
+        1.0,
+        1.340000033378601
+      ],
+      "source_shock_perch_local_z": [
+        0.09,
+        0.8
+      ],
+      "upper_parent": "sprung_body",
+      "lower_parent": "REAR_axle",
+      "mesh_separable_from_body": true,
+      "spring_piston_damper_combined": true
+    }
+  },
+  "component_mapping": {
+    "REUSABLE MONSTER CHASSIS | metres | front = -X": {
+      "parent": null,
+      "type": "EMPTY"
+    },
+    "RIG \u2022 sprung body": {
+      "parent": "REUSABLE MONSTER CHASSIS | metres | front = -X",
+      "type": "EMPTY"
+    },
+    "RIG \u2022 FRONT axle": {
+      "parent": "REUSABLE MONSTER CHASSIS | metres | front = -X",
+      "type": "EMPTY"
+    },
+    "RIG \u2022 FRONT shock -1": {
+      "parent": "REUSABLE MONSTER CHASSIS | metres | front = -X",
+      "type": "EMPTY"
+    },
+    "RIG \u2022 FRONT shock 1": {
+      "parent": "REUSABLE MONSTER CHASSIS | metres | front = -X",
+      "type": "EMPTY"
+    },
+    "RIG \u2022 REAR axle": {
+      "parent": "REUSABLE MONSTER CHASSIS | metres | front = -X",
+      "type": "EMPTY"
+    },
+    "RIG \u2022 REAR shock -1": {
+      "parent": "REUSABLE MONSTER CHASSIS | metres | front = -X",
+      "type": "EMPTY"
+    },
+    "RIG \u2022 REAR shock 1": {
+      "parent": "REUSABLE MONSTER CHASSIS | metres | front = -X",
+      "type": "EMPTY"
+    },
+    "RIG \u2022 FL steering": {
+      "parent": "REUSABLE MONSTER CHASSIS | metres | front = -X",
+      "type": "EMPTY"
+    },
+    "RIG \u2022 FL spin": {
+      "parent": "RIG \u2022 FL steering",
+      "type": "EMPTY"
+    },
+    "RIG \u2022 FR steering": {
+      "parent": "REUSABLE MONSTER CHASSIS | metres | front = -X",
+      "type": "EMPTY"
+    },
+    "RIG \u2022 FR spin": {
+      "parent": "RIG \u2022 FR steering",
+      "type": "EMPTY"
+    },
+    "RIG \u2022 RL steering": {
+      "parent": "REUSABLE MONSTER CHASSIS | metres | front = -X",
+      "type": "EMPTY"
+    },
+    "RIG \u2022 RL spin": {
+      "parent": "RIG \u2022 RL steering",
+      "type": "EMPTY"
+    },
+    "RIG \u2022 RR steering": {
+      "parent": "REUSABLE MONSTER CHASSIS | metres | front = -X",
+      "type": "EMPTY"
+    },
+    "RIG \u2022 RR spin": {
+      "parent": "RIG \u2022 RR steering",
+      "type": "EMPTY"
+    },
+    "Frame rail \u2022 -1": {
+      "parent": "RIG \u2022 sprung body",
+      "type": "MESH"
+    },
+    "Frame rail \u2022 1": {
+      "parent": "RIG \u2022 sprung body",
+      "type": "MESH"
+    },
+    "Frame crossmember": {
+      "parent": "RIG \u2022 sprung body",
+      "type": "MESH"
+    },
+    "Frame crossmember.001": {
+      "parent": "RIG \u2022 sprung body",
+      "type": "MESH"
+    },
+    "Frame crossmember.002": {
+      "parent": "RIG \u2022 sprung body",
+      "type": "MESH"
+    },
+    "Frame crossmember.003": {
+      "parent": "RIG \u2022 sprung body",
+      "type": "MESH"
+    },
+    "Engine sump": {
+      "parent": "RIG \u2022 sprung body",
+      "type": "MESH"
+    },
+    "Transmission": {
+      "parent": "RIG \u2022 sprung body",
+      "type": "MESH"
+    },
+    "Prop shaft \u2022 front": {
+      "parent": "REUSABLE MONSTER CHASSIS | metres | front = -X",
+      "type": "MESH"
+    },
+    "Prop shaft \u2022 rear": {
+      "parent": "REUSABLE MONSTER CHASSIS | metres | front = -X",
+      "type": "MESH"
+    },
+    "Body mounting pad": {
+      "parent": "RIG \u2022 sprung body",
+      "type": "MESH"
+    },
+    "MOUNT \u2022 body -0.65 -0.65": {
+      "parent": "RIG \u2022 sprung body",
+      "type": "EMPTY"
+    },
+    "Body mounting pad.001": {
+      "parent": "RIG \u2022 sprung body",
+      "type": "MESH"
+    },
+    "MOUNT \u2022 body -0.65 0.65": {
+      "parent": "RIG \u2022 sprung body",
+      "type": "EMPTY"
+    },
+    "Body mounting pad.002": {
+      "parent": "RIG \u2022 sprung body",
+      "type": "MESH"
+    },
+    "MOUNT \u2022 body 0.7 -0.65": {
+      "parent": "RIG \u2022 sprung body",
+      "type": "EMPTY"
+    },
+    "Body mounting pad.003": {
+      "parent": "RIG \u2022 sprung body",
+      "type": "MESH"
+    },
+    "MOUNT \u2022 body 0.7 0.65": {
+      "parent": "RIG \u2022 sprung body",
+      "type": "EMPTY"
+    },
+    "FRONT \u2022 solid axle": {
+      "parent": "RIG \u2022 FRONT axle",
+      "type": "MESH"
+    },
+    "FRONT \u2022 differential": {
+      "parent": "RIG \u2022 FRONT axle",
+      "type": "MESH"
+    },
+    "FRONT \u2022 differential cover": {
+      "parent": "RIG \u2022 FRONT axle",
+      "type": "MESH"
+    },
+    "FRONT \u2022 cover bolt": {
+      "parent": "RIG \u2022 FRONT axle",
+      "type": "MESH"
+    },
+    "FRONT \u2022 cover bolt.001": {
+      "parent": "RIG \u2022 FRONT axle",
+      "type": "MESH"
+    },
+    "FRONT \u2022 cover bolt.002": {
+      "parent": "RIG \u2022 FRONT axle",
+      "type": "MESH"
+    },
+    "FRONT \u2022 cover bolt.003": {
+      "parent": "RIG \u2022 FRONT axle",
+      "type": "MESH"
+    },
+    "FRONT \u2022 cover bolt.004": {
+      "parent": "RIG \u2022 FRONT axle",
+      "type": "MESH"
+    },
+    "FRONT \u2022 cover bolt.005": {
+      "parent": "RIG \u2022 FRONT axle",
+      "type": "MESH"
+    },
+    "FRONT \u2022 cover bolt.006": {
+      "parent": "RIG \u2022 FRONT axle",
+      "type": "MESH"
+    },
+    "FRONT \u2022 cover bolt.007": {
+      "parent": "RIG \u2022 FRONT axle",
+      "type": "MESH"
+    },
+    "FRONT \u2022 hub coupling": {
+      "parent": "RIG \u2022 FRONT axle",
+      "type": "MESH"
+    },
+    "FRONT \u2022 suspension link": {
+      "parent": "REUSABLE MONSTER CHASSIS | metres | front = -X",
+      "type": "MESH"
+    },
+    "FRONT \u2022 suspension link.001": {
+      "parent": "REUSABLE MONSTER CHASSIS | metres | front = -X",
+      "type": "MESH"
+    },
+    "Shock \u2022 polished piston": {
+      "parent": "RIG \u2022 FRONT shock -1",
+      "type": "MESH"
+    },
+    "Shock \u2022 damper body": {
+      "parent": "RIG \u2022 FRONT shock -1",
+      "type": "MESH"
+    },
+    "Shock \u2022 spring perch": {
+      "parent": "RIG \u2022 FRONT shock -1",
+      "type": "MESH"
+    },
+    "Shock \u2022 spring perch.001": {
+      "parent": "RIG \u2022 FRONT shock -1",
+      "type": "MESH"
+    },
+    "Shock \u2022 seven-turn coil": {
+      "parent": "RIG \u2022 FRONT shock -1",
+      "type": "CURVE"
+    },
+    "FRONT \u2022 hub coupling.001": {
+      "parent": "RIG \u2022 FRONT axle",
+      "type": "MESH"
+    },
+    "FRONT \u2022 suspension link.002": {
+      "parent": "REUSABLE MONSTER CHASSIS | metres | front = -X",
+      "type": "MESH"
+    },
+    "FRONT \u2022 suspension link.003": {
+      "parent": "REUSABLE MONSTER CHASSIS | metres | front = -X",
+      "type": "MESH"
+    },
+    "Shock \u2022 polished piston.001": {
+      "parent": "RIG \u2022 FRONT shock 1",
+      "type": "MESH"
+    },
+    "Shock \u2022 damper body.001": {
+      "parent": "RIG \u2022 FRONT shock 1",
+      "type": "MESH"
+    },
+    "Shock \u2022 spring perch.002": {
+      "parent": "RIG \u2022 FRONT shock 1",
+      "type": "MESH"
+    },
+    "Shock \u2022 spring perch.003": {
+      "parent": "RIG \u2022 FRONT shock 1",
+      "type": "MESH"
+    },
+    "Shock \u2022 seven-turn coil.001": {
+      "parent": "RIG \u2022 FRONT shock 1",
+      "type": "CURVE"
+    },
+    "REAR \u2022 solid axle": {
+      "parent": "RIG \u2022 REAR axle",
+      "type": "MESH"
+    },
+    "REAR \u2022 differential": {
+      "parent": "RIG \u2022 REAR axle",
+      "type": "MESH"
+    },
+    "REAR \u2022 differential cover": {
+      "parent": "RIG \u2022 REAR axle",
+      "type": "MESH"
+    },
+    "REAR \u2022 cover bolt": {
+      "parent": "RIG \u2022 REAR axle",
+      "type": "MESH"
+    },
+    "REAR \u2022 cover bolt.001": {
+      "parent": "RIG \u2022 REAR axle",
+      "type": "MESH"
+    },
+    "REAR \u2022 cover bolt.002": {
+      "parent": "RIG \u2022 REAR axle",
+      "type": "MESH"
+    },
+    "REAR \u2022 cover bolt.003": {
+      "parent": "RIG \u2022 REAR axle",
+      "type": "MESH"
+    },
+    "REAR \u2022 cover bolt.004": {
+      "parent": "RIG \u2022 REAR axle",
+      "type": "MESH"
+    },
+    "REAR \u2022 cover bolt.005": {
+      "parent": "RIG \u2022 REAR axle",
+      "type": "MESH"
+    },
+    "REAR \u2022 cover bolt.006": {
+      "parent": "RIG \u2022 REAR axle",
+      "type": "MESH"
+    },
+    "REAR \u2022 cover bolt.007": {
+      "parent": "RIG \u2022 REAR axle",
+      "type": "MESH"
+    },
+    "REAR \u2022 hub coupling": {
+      "parent": "RIG \u2022 REAR axle",
+      "type": "MESH"
+    },
+    "REAR \u2022 suspension link": {
+      "parent": "REUSABLE MONSTER CHASSIS | metres | front = -X",
+      "type": "MESH"
+    },
+    "REAR \u2022 suspension link.001": {
+      "parent": "REUSABLE MONSTER CHASSIS | metres | front = -X",
+      "type": "MESH"
+    },
+    "Shock \u2022 polished piston.002": {
+      "parent": "RIG \u2022 REAR shock -1",
+      "type": "MESH"
+    },
+    "Shock \u2022 damper body.002": {
+      "parent": "RIG \u2022 REAR shock -1",
+      "type": "MESH"
+    },
+    "Shock \u2022 spring perch.004": {
+      "parent": "RIG \u2022 REAR shock -1",
+      "type": "MESH"
+    },
+    "Shock \u2022 spring perch.005": {
+      "parent": "RIG \u2022 REAR shock -1",
+      "type": "MESH"
+    },
+    "Shock \u2022 seven-turn coil.002": {
+      "parent": "RIG \u2022 REAR shock -1",
+      "type": "CURVE"
+    },
+    "REAR \u2022 hub coupling.001": {
+      "parent": "RIG \u2022 REAR axle",
+      "type": "MESH"
+    },
+    "REAR \u2022 suspension link.002": {
+      "parent": "REUSABLE MONSTER CHASSIS | metres | front = -X",
+      "type": "MESH"
+    },
+    "REAR \u2022 suspension link.003": {
+      "parent": "REUSABLE MONSTER CHASSIS | metres | front = -X",
+      "type": "MESH"
+    },
+    "Shock \u2022 polished piston.003": {
+      "parent": "RIG \u2022 REAR shock 1",
+      "type": "MESH"
+    },
+    "Shock \u2022 damper body.003": {
+      "parent": "RIG \u2022 REAR shock 1",
+      "type": "MESH"
+    },
+    "Shock \u2022 spring perch.006": {
+      "parent": "RIG \u2022 REAR shock 1",
+      "type": "MESH"
+    },
+    "Shock \u2022 spring perch.007": {
+      "parent": "RIG \u2022 REAR shock 1",
+      "type": "MESH"
+    },
+    "Shock \u2022 seven-turn coil.003": {
+      "parent": "RIG \u2022 REAR shock 1",
+      "type": "CURVE"
+    },
+    "Body mount \u2022 support pedestal": {
+      "parent": "RIG \u2022 sprung body",
+      "type": "MESH"
+    },
+    "Body mount \u2022 support pedestal.001": {
+      "parent": "RIG \u2022 sprung body",
+      "type": "MESH"
+    },
+    "Body mount \u2022 support pedestal.002": {
+      "parent": "RIG \u2022 sprung body",
+      "type": "MESH"
+    },
+    "Body mount \u2022 support pedestal.003": {
+      "parent": "RIG \u2022 sprung body",
+      "type": "MESH"
+    },
+    "Spring tower \u2022 upper outrigger": {
+      "parent": "RIG \u2022 sprung body",
+      "type": "MESH"
+    },
+    "Spring tower \u2022 lower axle mount": {
+      "parent": "REUSABLE MONSTER CHASSIS | metres | front = -X",
+      "type": "MESH"
+    },
+    "Spring tower \u2022 upper outrigger.001": {
+      "parent": "RIG \u2022 sprung body",
+      "type": "MESH"
+    },
+    "Spring tower \u2022 lower axle mount.001": {
+      "parent": "REUSABLE MONSTER CHASSIS | metres | front = -X",
+      "type": "MESH"
+    },
+    "Spring tower \u2022 upper outrigger.002": {
+      "parent": "RIG \u2022 sprung body",
+      "type": "MESH"
+    },
+    "Spring tower \u2022 lower axle mount.002": {
+      "parent": "REUSABLE MONSTER CHASSIS | metres | front = -X",
+      "type": "MESH"
+    },
+    "Spring tower \u2022 upper outrigger.003": {
+      "parent": "RIG \u2022 sprung body",
+      "type": "MESH"
+    },
+    "Spring tower \u2022 lower axle mount.003": {
+      "parent": "REUSABLE MONSTER CHASSIS | metres | front = -X",
+      "type": "MESH"
+    },
+    "FL \u2022 reusable tyre casing": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 reusable chevron tread": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 orange wheel barrel": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 sidewall moulding": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 bead ring": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 rim recess": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 dished orange face": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 polished orange lip": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 hub cap": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 wheel vent": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 lug bolt": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 wheel vent.001": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 lug bolt.001": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 wheel vent.002": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 lug bolt.002": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 wheel vent.003": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 lug bolt.003": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 wheel vent.004": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 lug bolt.004": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 wheel vent.005": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 lug bolt.005": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 wheel vent.006": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 lug bolt.006": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 wheel vent.007": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 lug bolt.007": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 sidewall moulding.001": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 bead ring.001": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 rim recess.001": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 dished orange face.001": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 polished orange lip.001": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 hub cap.001": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 wheel vent.008": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 lug bolt.008": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 wheel vent.009": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 lug bolt.009": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 wheel vent.010": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 lug bolt.010": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 wheel vent.011": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 lug bolt.011": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 wheel vent.012": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 lug bolt.012": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 wheel vent.013": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 lug bolt.013": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 wheel vent.014": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 lug bolt.014": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 wheel vent.015": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FL \u2022 lug bolt.015": {
+      "parent": "RIG \u2022 FL spin",
+      "type": "MESH"
+    },
+    "FR \u2022 bead ring": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 bead ring.001": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 dished orange face": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 dished orange face.001": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 hub cap": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 hub cap.001": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 lug bolt": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 lug bolt.001": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 lug bolt.002": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 lug bolt.003": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 lug bolt.004": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 lug bolt.005": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 lug bolt.006": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 lug bolt.007": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 lug bolt.008": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 lug bolt.009": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 lug bolt.010": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 lug bolt.011": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 lug bolt.012": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 lug bolt.013": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 lug bolt.014": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 lug bolt.015": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 orange wheel barrel": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 polished orange lip": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 polished orange lip.001": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 reusable chevron tread": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 reusable tyre casing": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 rim recess": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 rim recess.001": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 sidewall moulding": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 sidewall moulding.001": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 wheel vent": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 wheel vent.001": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 wheel vent.002": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 wheel vent.003": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 wheel vent.004": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 wheel vent.005": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 wheel vent.006": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 wheel vent.007": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 wheel vent.008": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 wheel vent.009": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 wheel vent.010": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 wheel vent.011": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 wheel vent.012": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 wheel vent.013": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 wheel vent.014": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "FR \u2022 wheel vent.015": {
+      "parent": "RIG \u2022 FR spin",
+      "type": "MESH"
+    },
+    "RL \u2022 bead ring": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 bead ring.001": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 dished orange face": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 dished orange face.001": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 hub cap": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 hub cap.001": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 lug bolt": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 lug bolt.001": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 lug bolt.002": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 lug bolt.003": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 lug bolt.004": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 lug bolt.005": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 lug bolt.006": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 lug bolt.007": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 lug bolt.008": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 lug bolt.009": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 lug bolt.010": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 lug bolt.011": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 lug bolt.012": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 lug bolt.013": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 lug bolt.014": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 lug bolt.015": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 orange wheel barrel": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 polished orange lip": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 polished orange lip.001": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 reusable chevron tread": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 reusable tyre casing": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 rim recess": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 rim recess.001": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 sidewall moulding": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 sidewall moulding.001": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 wheel vent": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 wheel vent.001": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 wheel vent.002": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 wheel vent.003": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 wheel vent.004": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 wheel vent.005": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 wheel vent.006": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 wheel vent.007": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 wheel vent.008": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 wheel vent.009": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 wheel vent.010": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 wheel vent.011": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 wheel vent.012": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 wheel vent.013": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 wheel vent.014": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RL \u2022 wheel vent.015": {
+      "parent": "RIG \u2022 RL spin",
+      "type": "MESH"
+    },
+    "RR \u2022 bead ring": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 bead ring.001": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 dished orange face": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 dished orange face.001": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 hub cap": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 hub cap.001": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 lug bolt": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 lug bolt.001": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 lug bolt.002": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 lug bolt.003": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 lug bolt.004": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 lug bolt.005": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 lug bolt.006": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 lug bolt.007": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 lug bolt.008": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 lug bolt.009": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 lug bolt.010": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 lug bolt.011": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 lug bolt.012": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 lug bolt.013": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 lug bolt.014": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 lug bolt.015": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 orange wheel barrel": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 polished orange lip": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 polished orange lip.001": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 reusable chevron tread": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 reusable tyre casing": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 rim recess": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 rim recess.001": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 sidewall moulding": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 sidewall moulding.001": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 wheel vent": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 wheel vent.001": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 wheel vent.002": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 wheel vent.003": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 wheel vent.004": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 wheel vent.005": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 wheel vent.006": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 wheel vent.007": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 wheel vent.008": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 wheel vent.009": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 wheel vent.010": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 wheel vent.011": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 wheel vent.012": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 wheel vent.013": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 wheel vent.014": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    },
+    "RR \u2022 wheel vent.015": {
+      "parent": "RIG \u2022 RR spin",
+      "type": "MESH"
+    }
+  },
+  "materials": {
+    "BeamBuilder_Energy": {
+      "rgba": [
+        1.0,
+        0.47999998927116394,
+        0.029999999329447746,
+        1.0
+      ]
+    },
+    "BeamBuilder_Paint": {
+      "rgba": [
+        1.0,
+        0.3199999928474426,
+        0.017999999225139618,
+        1.0
+      ]
+    },
+    "DD_Glass_Smoked": {
+      "rgba": [
+        0.014999999664723873,
+        0.029999999329447746,
+        0.03999999910593033,
+        1.0
+      ]
+    },
+    "DD_Hazard_Charcoal": {
+      "rgba": [
+        0.013000000268220901,
+        0.017999999225139618,
+        0.020999999716877937,
+        1.0
+      ]
+    },
+    "DD_Lamp_Red": {
+      "rgba": [
+        0.6000000238418579,
+        0.00800000037997961,
+        0.012000000104308128,
+        1.0
+      ]
+    },
+    "DD_Lamp_WorkWhite": {
+      "rgba": [
+        0.8799999952316284,
+        0.9399999976158142,
+        1.0,
+        1.0
+      ]
+    },
+    "DD_Metal_Steel": {
+      "rgba": [
+        0.25999999046325684,
+        0.3100000023841858,
+        0.3400000035762787,
+        1.0
+      ]
+    },
+    "DD_Trim_Graphite": {
+      "rgba": [
+        0.041999999433755875,
+        0.04800000041723251,
+        0.050999999046325684,
+        1.0
+      ]
+    },
+    "Metal \u2022 graphite chassis": {
+      "rgba": [
+        0.03700000047683716,
+        0.04500000178813934,
+        0.052000001072883606,
+        1.0
+      ]
+    },
+    "Metal \u2022 satin chrome": {
+      "rgba": [
+        0.6299999952316284,
+        0.6899999976158142,
+        0.7200000286102295,
+        1.0
+      ]
+    },
+    "Paint \u2022 molten orange": {
+      "rgba": [
+        1.0,
+        0.3199999928474426,
+        0.017999999225139618,
+        1.0
+      ]
+    },
+    "Paint \u2022 oxblood frame": {
+      "rgba": [
+        1.0,
+        0.3199999928474426,
+        0.017999999225139618,
+        1.0
+      ]
+    },
+    "Rubber \u2022 raised sidewall": {
+      "rgba": [
+        0.026000000536441803,
+        0.029999999329447746,
+        0.03400000184774399,
+        1.0
+      ]
+    },
+    "Rubber \u2022 tyre": {
+      "rgba": [
+        0.017999999225139618,
+        0.02199999988079071,
+        0.026000000536441803,
+        1.0
+      ]
+    },
+    "Studio \u2022 blue slate": {
+      "rgba": [
+        0.0560000017285347,
+        0.0729999989271164,
+        0.09600000083446503,
+        1.0
+      ]
+    },
+    "Trim \u2022 black rubber": {
+      "rgba": [
+        0.00800000037997961,
+        0.012000000104308128,
+        0.01600000075995922,
+        1.0
+      ]
+    }
+  },
+  "lods": [
+    {
+      "filename": "BeamBuilder.fbx",
+      "triangles": 47214,
+      "target": 52000,
+      "within_target": true,
+      "meshes": 15,
+      "suspension": {
+        "FL": {
+          "upper_anchor": "BeamBuilder_LOD0_Suspension_FL_UpperAnchor",
+          "lower_anchor": "BeamBuilder_LOD0_Suspension_FL_LowerAnchor",
+          "shock_pivot": "BeamBuilder_LOD0_FRONT_shock_-1",
+          "shock_geometry": "BeamBuilder_LOD0_FRONT_shock_-1_Geometry"
+        },
+        "FR": {
+          "upper_anchor": "BeamBuilder_LOD0_Suspension_FR_UpperAnchor",
+          "lower_anchor": "BeamBuilder_LOD0_Suspension_FR_LowerAnchor",
+          "shock_pivot": "BeamBuilder_LOD0_FRONT_shock_1",
+          "shock_geometry": "BeamBuilder_LOD0_FRONT_shock_1_Geometry"
+        },
+        "RL": {
+          "upper_anchor": "BeamBuilder_LOD0_Suspension_RL_UpperAnchor",
+          "lower_anchor": "BeamBuilder_LOD0_Suspension_RL_LowerAnchor",
+          "shock_pivot": "BeamBuilder_LOD0_REAR_shock_-1",
+          "shock_geometry": "BeamBuilder_LOD0_REAR_shock_-1_Geometry"
+        },
+        "RR": {
+          "upper_anchor": "BeamBuilder_LOD0_Suspension_RR_UpperAnchor",
+          "lower_anchor": "BeamBuilder_LOD0_Suspension_RR_LowerAnchor",
+          "shock_pivot": "BeamBuilder_LOD0_REAR_shock_1",
+          "shock_geometry": "BeamBuilder_LOD0_REAR_shock_1_Geometry"
+        }
+      },
+      "mesh_material_slots": {
+        "BeamBuilder_LOD0_sprung_body_Geometry": [
+          "Paint \u2022 oxblood frame",
+          "Metal \u2022 graphite chassis",
+          "Trim \u2022 black rubber",
+          "BeamBuilder_Paint",
+          "DD_Glass_Smoked",
+          "DD_Metal_Steel",
+          "DD_Trim_Graphite",
+          "DD_Lamp_WorkWhite",
+          "DD_Lamp_Red",
+          "DD_Hazard_Charcoal"
+        ],
+        "BeamBuilder_LOD0_Root_Geometry": [
+          "Metal \u2022 graphite chassis"
+        ],
+        "BeamBuilder_LOD0_FRONT_axle_Geometry": [
+          "Paint \u2022 oxblood frame",
+          "Metal \u2022 graphite chassis",
+          "Metal \u2022 satin chrome"
+        ],
+        "BeamBuilder_LOD0_FRONT_shock_-1_Geometry": [
+          "Metal \u2022 satin chrome",
+          "Metal \u2022 graphite chassis"
+        ],
+        "BeamBuilder_LOD0_FRONT_shock_1_Geometry": [
+          "Metal \u2022 satin chrome",
+          "Metal \u2022 graphite chassis"
+        ],
+        "BeamBuilder_LOD0_REAR_axle_Geometry": [
+          "Paint \u2022 oxblood frame",
+          "Metal \u2022 graphite chassis",
+          "Metal \u2022 satin chrome"
+        ],
+        "BeamBuilder_LOD0_REAR_shock_-1_Geometry": [
+          "Metal \u2022 satin chrome",
+          "Metal \u2022 graphite chassis"
+        ],
+        "BeamBuilder_LOD0_REAR_shock_1_Geometry": [
+          "Metal \u2022 satin chrome",
+          "Metal \u2022 graphite chassis"
+        ],
+        "BeamBuilder_LOD0_FL_Spin_Geometry": [
+          "Rubber \u2022 tyre",
+          "Paint \u2022 molten orange",
+          "Rubber \u2022 raised sidewall",
+          "Paint \u2022 oxblood frame",
+          "Metal \u2022 satin chrome"
+        ],
+        "BeamBuilder_LOD0_FR_Spin_Geometry": [
+          "Rubber \u2022 raised sidewall",
+          "Paint \u2022 molten orange",
+          "Metal \u2022 satin chrome",
+          "Rubber \u2022 tyre",
+          "Paint \u2022 oxblood frame"
+        ],
+        "BeamBuilder_LOD0_RL_Spin_Geometry": [
+          "Rubber \u2022 raised sidewall",
+          "Paint \u2022 molten orange",
+          "Metal \u2022 satin chrome",
+          "Rubber \u2022 tyre",
+          "Paint \u2022 oxblood frame"
+        ],
+        "BeamBuilder_LOD0_RR_Spin_Geometry": [
+          "Rubber \u2022 raised sidewall",
+          "Paint \u2022 molten orange",
+          "Metal \u2022 satin chrome",
+          "Rubber \u2022 tyre",
+          "Paint \u2022 oxblood frame"
+        ],
+        "BeamBuilder_LOD0_RL_Spin.001_Geometry": [
+          "Rubber \u2022 raised sidewall",
+          "Paint \u2022 molten orange",
+          "Metal \u2022 satin chrome",
+          "Rubber \u2022 tyre",
+          "Paint \u2022 oxblood frame"
+        ],
+        "BeamBuilder_LOD0_RR_Spin.001_Geometry": [
+          "Rubber \u2022 raised sidewall",
+          "Paint \u2022 molten orange",
+          "Metal \u2022 satin chrome",
+          "Rubber \u2022 tyre",
+          "Paint \u2022 oxblood frame"
+        ],
+        "BeamBuilder_LOD0_ToolPivot_Geometry": [
+          "DD_Trim_Graphite",
+          "BeamBuilder_Paint",
+          "BeamBuilder_Energy"
+        ]
+      },
+      "wheels": {
+        "FL": {
+          "steering_pivot": "BeamBuilder_LOD0_FL_Steer",
+          "spin_pivot": "BeamBuilder_LOD0_FL_Spin",
+          "centre_m": [
+            -1.4800000190734863,
+            -1.5199999809265137,
+            1.0850000381469727
+          ],
+          "radius_m": 1.1046113482887157,
+          "bounds_min_m": [
+            -2.5815770626068115,
+            -2.0701656341552734,
+            -0.01952362060546875
+          ],
+          "bounds_max_m": [
+            -0.37842297554016113,
+            -0.9698481559753418,
+            2.189523696899414
+          ]
+        },
+        "FR": {
+          "steering_pivot": "BeamBuilder_LOD0_FR_Steer",
+          "spin_pivot": "BeamBuilder_LOD0_FR_Spin",
+          "centre_m": [
+            -1.4800000190734863,
+            1.5199999809265137,
+            1.0850000381469727
+          ],
+          "radius_m": 1.1046113482887157,
+          "bounds_min_m": [
+            -2.5815770626068115,
+            0.9698481559753418,
+            -0.01952362060546875
+          ],
+          "bounds_max_m": [
+            -0.37842297554016113,
+            2.0701301097869873,
+            2.189523696899414
+          ]
+        },
+        "RL": {
+          "steering_pivot": "BeamBuilder_LOD0_RL_Steer",
+          "spin_pivot": "BeamBuilder_LOD0_RL_Spin",
+          "centre_m": [
+            1.4800000190734863,
+            -1.5199999809265137,
+            1.0850000381469727
+          ],
+          "radius_m": 1.1046113482887157,
+          "bounds_min_m": [
+            0.37842297554016113,
+            -2.0700957775115967,
+            -0.01952362060546875
+          ],
+          "bounds_max_m": [
+            2.5815770626068115,
+            -0.969848096370697,
+            2.189523696899414
+          ]
+        },
+        "RR": {
+          "steering_pivot": "BeamBuilder_LOD0_RR_Steer",
+          "spin_pivot": "BeamBuilder_LOD0_RR_Spin",
+          "centre_m": [
+            1.4800000190734863,
+            1.5199999809265137,
+            1.0850000381469727
+          ],
+          "radius_m": 1.1046113482887157,
+          "bounds_min_m": [
+            0.37842297554016113,
+            0.9698481559753418,
+            -0.01952362060546875
+          ],
+          "bounds_max_m": [
+            2.5815770626068115,
+            2.0701301097869873,
+            2.189523696899414
+          ]
+        }
+      },
+      "bounds_min_m": [
+        -2.5815770626068115,
+        -2.0701656341552734,
+        -0.01952362060546875
+      ],
+      "bounds_max_m": [
+        4.481576919555664,
+        2.0701301097869873,
+        5.437675952911377
+      ]
+    },
+    {
+      "filename": "BeamBuilder_LOD1.fbx",
+      "triangles": 19214,
+      "target": 24000,
+      "within_target": true,
+      "meshes": 15,
+      "suspension": {
+        "FL": {
+          "upper_anchor": "BeamBuilder_LOD1_Suspension_FL_UpperAnchor",
+          "lower_anchor": "BeamBuilder_LOD1_Suspension_FL_LowerAnchor",
+          "shock_pivot": "BeamBuilder_LOD1_FRONT_shock_-1",
+          "shock_geometry": "BeamBuilder_LOD1_FRONT_shock_-1_Geometry"
+        },
+        "FR": {
+          "upper_anchor": "BeamBuilder_LOD1_Suspension_FR_UpperAnchor",
+          "lower_anchor": "BeamBuilder_LOD1_Suspension_FR_LowerAnchor",
+          "shock_pivot": "BeamBuilder_LOD1_FRONT_shock_1",
+          "shock_geometry": "BeamBuilder_LOD1_FRONT_shock_1_Geometry"
+        },
+        "RL": {
+          "upper_anchor": "BeamBuilder_LOD1_Suspension_RL_UpperAnchor",
+          "lower_anchor": "BeamBuilder_LOD1_Suspension_RL_LowerAnchor",
+          "shock_pivot": "BeamBuilder_LOD1_REAR_shock_-1",
+          "shock_geometry": "BeamBuilder_LOD1_REAR_shock_-1_Geometry"
+        },
+        "RR": {
+          "upper_anchor": "BeamBuilder_LOD1_Suspension_RR_UpperAnchor",
+          "lower_anchor": "BeamBuilder_LOD1_Suspension_RR_LowerAnchor",
+          "shock_pivot": "BeamBuilder_LOD1_REAR_shock_1",
+          "shock_geometry": "BeamBuilder_LOD1_REAR_shock_1_Geometry"
+        }
+      },
+      "mesh_material_slots": {
+        "BeamBuilder_LOD1_sprung_body_Geometry": [
+          "Paint \u2022 oxblood frame",
+          "Metal \u2022 graphite chassis",
+          "Trim \u2022 black rubber",
+          "BeamBuilder_Paint",
+          "DD_Glass_Smoked",
+          "DD_Metal_Steel",
+          "DD_Trim_Graphite",
+          "DD_Lamp_WorkWhite",
+          "DD_Lamp_Red",
+          "DD_Hazard_Charcoal"
+        ],
+        "BeamBuilder_LOD1_Root_Geometry": [
+          "Metal \u2022 graphite chassis"
+        ],
+        "BeamBuilder_LOD1_FRONT_axle_Geometry": [
+          "Paint \u2022 oxblood frame",
+          "Metal \u2022 graphite chassis",
+          "Metal \u2022 satin chrome"
+        ],
+        "BeamBuilder_LOD1_FRONT_shock_-1_Geometry": [
+          "Metal \u2022 satin chrome",
+          "Metal \u2022 graphite chassis"
+        ],
+        "BeamBuilder_LOD1_FRONT_shock_1_Geometry": [
+          "Metal \u2022 satin chrome",
+          "Metal \u2022 graphite chassis"
+        ],
+        "BeamBuilder_LOD1_REAR_axle_Geometry": [
+          "Paint \u2022 oxblood frame",
+          "Metal \u2022 graphite chassis",
+          "Metal \u2022 satin chrome"
+        ],
+        "BeamBuilder_LOD1_REAR_shock_-1_Geometry": [
+          "Metal \u2022 satin chrome",
+          "Metal \u2022 graphite chassis"
+        ],
+        "BeamBuilder_LOD1_REAR_shock_1_Geometry": [
+          "Metal \u2022 satin chrome",
+          "Metal \u2022 graphite chassis"
+        ],
+        "BeamBuilder_LOD1_FL_Spin_Geometry": [
+          "Rubber \u2022 tyre",
+          "Paint \u2022 molten orange",
+          "Rubber \u2022 raised sidewall",
+          "Paint \u2022 oxblood frame",
+          "Metal \u2022 satin chrome"
+        ],
+        "BeamBuilder_LOD1_FR_Spin_Geometry": [
+          "Rubber \u2022 raised sidewall",
+          "Paint \u2022 molten orange",
+          "Metal \u2022 satin chrome",
+          "Rubber \u2022 tyre",
+          "Paint \u2022 oxblood frame"
+        ],
+        "BeamBuilder_LOD1_RL_Spin_Geometry": [
+          "Rubber \u2022 raised sidewall",
+          "Paint \u2022 molten orange",
+          "Metal \u2022 satin chrome",
+          "Rubber \u2022 tyre",
+          "Paint \u2022 oxblood frame"
+        ],
+        "BeamBuilder_LOD1_RR_Spin_Geometry": [
+          "Rubber \u2022 raised sidewall",
+          "Paint \u2022 molten orange",
+          "Metal \u2022 satin chrome",
+          "Rubber \u2022 tyre",
+          "Paint \u2022 oxblood frame"
+        ],
+        "BeamBuilder_LOD1_RL_Spin.001_Geometry": [
+          "Rubber \u2022 raised sidewall",
+          "Paint \u2022 molten orange",
+          "Metal \u2022 satin chrome",
+          "Rubber \u2022 tyre",
+          "Paint \u2022 oxblood frame"
+        ],
+        "BeamBuilder_LOD1_RR_Spin.001_Geometry": [
+          "Rubber \u2022 raised sidewall",
+          "Paint \u2022 molten orange",
+          "Metal \u2022 satin chrome",
+          "Rubber \u2022 tyre",
+          "Paint \u2022 oxblood frame"
+        ],
+        "BeamBuilder_LOD1_ToolPivot_Geometry": [
+          "DD_Trim_Graphite",
+          "BeamBuilder_Paint",
+          "BeamBuilder_Energy"
+        ]
+      },
+      "wheels": {
+        "FL": {
+          "steering_pivot": "BeamBuilder_LOD1_FL_Steer",
+          "spin_pivot": "BeamBuilder_LOD1_FL_Spin",
+          "centre_m": [
+            -1.4800000190734863,
+            -1.5199999809265137,
+            1.0850000381469727
+          ],
+          "radius_m": 1.093518398533278,
+          "bounds_min_m": [
+            -2.573000907897949,
+            -2.0724830627441406,
+            -0.006348848342895508
+          ],
+          "bounds_max_m": [
+            -0.3869990110397339,
+            -0.9674569964408875,
+            2.176348924636841
+          ]
+        },
+        "FR": {
+          "steering_pivot": "BeamBuilder_LOD1_FR_Steer",
+          "spin_pivot": "BeamBuilder_LOD1_FR_Spin",
+          "centre_m": [
+            -1.4800000190734863,
+            1.5199999809265137,
+            1.0850000381469727
+          ],
+          "radius_m": 1.093518424334798,
+          "bounds_min_m": [
+            -2.573000907897949,
+            0.9695556163787842,
+            -0.006348848342895508
+          ],
+          "bounds_max_m": [
+            -0.3869990110397339,
+            2.0719635486602783,
+            2.176348924636841
+          ]
+        },
+        "RL": {
+          "steering_pivot": "BeamBuilder_LOD1_RL_Steer",
+          "spin_pivot": "BeamBuilder_LOD1_RL_Spin",
+          "centre_m": [
+            1.4800000190734863,
+            -1.5199999809265137,
+            1.0850000381469727
+          ],
+          "radius_m": 1.093518398533278,
+          "bounds_min_m": [
+            0.38699889183044434,
+            -2.0707201957702637,
+            -0.006348848342895508
+          ],
+          "bounds_max_m": [
+            2.573000907897949,
+            -0.9679903984069824,
+            2.176348924636841
+          ]
+        },
+        "RR": {
+          "steering_pivot": "BeamBuilder_LOD1_RR_Steer",
+          "spin_pivot": "BeamBuilder_LOD1_RR_Spin",
+          "centre_m": [
+            1.4800000190734863,
+            1.5199999809265137,
+            1.0850000381469727
+          ],
+          "radius_m": 1.093518398533278,
+          "bounds_min_m": [
+            0.3869990110397339,
+            0.9695556163787842,
+            -0.006348848342895508
+          ],
+          "bounds_max_m": [
+            2.573000907897949,
+            2.0719635486602783,
+            2.176348924636841
+          ]
+        }
+      },
+      "bounds_min_m": [
+        -2.573000907897949,
+        -2.0724830627441406,
+        -0.006348848342895508
+      ],
+      "bounds_max_m": [
+        4.473001003265381,
+        2.0719635486602783,
+        5.437675952911377
+      ]
+    },
+    {
+      "filename": "BeamBuilder_LOD2.fbx",
+      "triangles": 9880,
+      "target": 10000,
+      "within_target": true,
+      "meshes": 15,
+      "suspension": {
+        "FL": {
+          "upper_anchor": "BeamBuilder_LOD2_Suspension_FL_UpperAnchor",
+          "lower_anchor": "BeamBuilder_LOD2_Suspension_FL_LowerAnchor",
+          "shock_pivot": "BeamBuilder_LOD2_FRONT_shock_-1",
+          "shock_geometry": "BeamBuilder_LOD2_FRONT_shock_-1_Geometry"
+        },
+        "FR": {
+          "upper_anchor": "BeamBuilder_LOD2_Suspension_FR_UpperAnchor",
+          "lower_anchor": "BeamBuilder_LOD2_Suspension_FR_LowerAnchor",
+          "shock_pivot": "BeamBuilder_LOD2_FRONT_shock_1",
+          "shock_geometry": "BeamBuilder_LOD2_FRONT_shock_1_Geometry"
+        },
+        "RL": {
+          "upper_anchor": "BeamBuilder_LOD2_Suspension_RL_UpperAnchor",
+          "lower_anchor": "BeamBuilder_LOD2_Suspension_RL_LowerAnchor",
+          "shock_pivot": "BeamBuilder_LOD2_REAR_shock_-1",
+          "shock_geometry": "BeamBuilder_LOD2_REAR_shock_-1_Geometry"
+        },
+        "RR": {
+          "upper_anchor": "BeamBuilder_LOD2_Suspension_RR_UpperAnchor",
+          "lower_anchor": "BeamBuilder_LOD2_Suspension_RR_LowerAnchor",
+          "shock_pivot": "BeamBuilder_LOD2_REAR_shock_1",
+          "shock_geometry": "BeamBuilder_LOD2_REAR_shock_1_Geometry"
+        }
+      },
+      "mesh_material_slots": {
+        "BeamBuilder_LOD2_sprung_body_Geometry": [
+          "Paint \u2022 oxblood frame",
+          "Metal \u2022 graphite chassis",
+          "Trim \u2022 black rubber",
+          "BeamBuilder_Paint",
+          "DD_Glass_Smoked",
+          "DD_Metal_Steel",
+          "DD_Trim_Graphite",
+          "DD_Lamp_WorkWhite",
+          "DD_Lamp_Red",
+          "DD_Hazard_Charcoal"
+        ],
+        "BeamBuilder_LOD2_Root_Geometry": [
+          "Metal \u2022 graphite chassis"
+        ],
+        "BeamBuilder_LOD2_FRONT_axle_Geometry": [
+          "Paint \u2022 oxblood frame",
+          "Metal \u2022 graphite chassis"
+        ],
+        "BeamBuilder_LOD2_FRONT_shock_-1_Geometry": [
+          "Metal \u2022 satin chrome",
+          "Metal \u2022 graphite chassis"
+        ],
+        "BeamBuilder_LOD2_FRONT_shock_1_Geometry": [
+          "Metal \u2022 satin chrome",
+          "Metal \u2022 graphite chassis"
+        ],
+        "BeamBuilder_LOD2_REAR_axle_Geometry": [
+          "Paint \u2022 oxblood frame",
+          "Metal \u2022 graphite chassis"
+        ],
+        "BeamBuilder_LOD2_REAR_shock_-1_Geometry": [
+          "Metal \u2022 satin chrome",
+          "Metal \u2022 graphite chassis"
+        ],
+        "BeamBuilder_LOD2_REAR_shock_1_Geometry": [
+          "Metal \u2022 satin chrome",
+          "Metal \u2022 graphite chassis"
+        ],
+        "BeamBuilder_LOD2_FL_Spin_Geometry": [
+          "Rubber \u2022 tyre",
+          "Paint \u2022 molten orange",
+          "Paint \u2022 oxblood frame"
+        ],
+        "BeamBuilder_LOD2_FR_Spin_Geometry": [
+          "Paint \u2022 molten orange",
+          "Rubber \u2022 tyre",
+          "Paint \u2022 oxblood frame"
+        ],
+        "BeamBuilder_LOD2_RL_Spin_Geometry": [
+          "Paint \u2022 molten orange",
+          "Rubber \u2022 tyre",
+          "Paint \u2022 oxblood frame"
+        ],
+        "BeamBuilder_LOD2_RR_Spin_Geometry": [
+          "Paint \u2022 molten orange",
+          "Rubber \u2022 tyre",
+          "Paint \u2022 oxblood frame"
+        ],
+        "BeamBuilder_LOD2_RL_Spin.001_Geometry": [
+          "Paint \u2022 molten orange",
+          "Rubber \u2022 tyre",
+          "Paint \u2022 oxblood frame"
+        ],
+        "BeamBuilder_LOD2_RR_Spin.001_Geometry": [
+          "Paint \u2022 molten orange",
+          "Rubber \u2022 tyre",
+          "Paint \u2022 oxblood frame"
+        ],
+        "BeamBuilder_LOD2_ToolPivot_Geometry": [
+          "DD_Trim_Graphite",
+          "BeamBuilder_Paint",
+          "BeamBuilder_Energy"
+        ]
+      },
+      "wheels": {
+        "FL": {
+          "steering_pivot": "BeamBuilder_LOD2_FL_Steer",
+          "spin_pivot": "BeamBuilder_LOD2_FL_Spin",
+          "centre_m": [
+            -1.4800000190734863,
+            -1.5199999809265137,
+            1.0850000381469727
+          ],
+          "radius_m": 1.0990001124655664,
+          "bounds_min_m": [
+            -2.578780174255371,
+            -2.070000171661377,
+            -0.013807415962219238
+          ],
+          "bounds_max_m": [
+            -0.38121986389160156,
+            -0.9699999094009399,
+            2.183807373046875
+          ]
+        },
+        "FR": {
+          "steering_pivot": "BeamBuilder_LOD2_FR_Steer",
+          "spin_pivot": "BeamBuilder_LOD2_FR_Spin",
+          "centre_m": [
+            -1.4800000190734863,
+            1.5199999809265137,
+            1.0850000381469727
+          ],
+          "radius_m": 1.0990002939798102,
+          "bounds_min_m": [
+            -2.578780174255371,
+            0.9699999094009399,
+            -0.013807535171508789
+          ],
+          "bounds_max_m": [
+            -0.3812199831008911,
+            2.070000171661377,
+            2.183807373046875
+          ]
+        },
+        "RL": {
+          "steering_pivot": "BeamBuilder_LOD2_RL_Steer",
+          "spin_pivot": "BeamBuilder_LOD2_RL_Spin",
+          "centre_m": [
+            1.4800000190734863,
+            -1.5199999809265137,
+            1.0850000381469727
+          ],
+          "radius_m": 1.0990002613291125,
+          "bounds_min_m": [
+            0.3812199831008911,
+            -2.070000171661377,
+            -0.013807415962219238
+          ],
+          "bounds_max_m": [
+            2.578780174255371,
+            -0.9699999094009399,
+            2.183807373046875
+          ]
+        },
+        "RR": {
+          "steering_pivot": "BeamBuilder_LOD2_RR_Steer",
+          "spin_pivot": "BeamBuilder_LOD2_RR_Spin",
+          "centre_m": [
+            1.4800000190734863,
+            1.5199999809265137,
+            1.0850000381469727
+          ],
+          "radius_m": 1.0990002613291125,
+          "bounds_min_m": [
+            0.3812199831008911,
+            0.9699999094009399,
+            -0.013807535171508789
+          ],
+          "bounds_max_m": [
+            2.578780174255371,
+            2.070000171661377,
+            2.183807373046875
+          ]
+        }
+      },
+      "bounds_min_m": [
+        -2.578780174255371,
+        -2.070000171661377,
+        -0.013807535171508789
+      ],
+      "bounds_max_m": [
+        4.4787797927856445,
+        2.070000171661377,
+        5.439999580383301
+      ]
+    }
+  ],
+  "integration_notes": [
+    "Integrated by BuildWorkshop.Create in Unity 6000.0.41f1.",
+    "Shared four-wheel physics rig; Beam Builder adds two independent animated trailing wheels.",
+    "Three LODs retain wheel, spring, axle and tool pivots. Unity wrapper uses metre scale 0.68 after FBX importer scale 100.",
+    "Tool tip follows forward-cone aim assistance. Original reusable chassis remains unchanged.",
+    "Runtime powers and reversible prop states are in WorkshopPower, CuttableProp, PropMeshSlice and WashableSurface."
+  ]
+}

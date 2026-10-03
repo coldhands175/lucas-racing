@@ -1,0 +1,222 @@
+{
+  "passed": true,
+  "source": {
+    "reopened": true,
+    "editable_construction_objects": 101,
+    "animations_removed": true,
+    "original_chassis_hash_unchanged": true
+  },
+  "fbx_roundtrips": [
+    {
+      "lod": 0,
+      "filename": "DiggerDan.fbx",
+      "passed": true,
+      "triangles": 41173,
+      "source_triangles": 41173,
+      "roundtrip_face_count_delta": 0,
+      "meshes": 12,
+      "missing_materials": [],
+      "construction_yellow_rgba": [
+        1.0,
+        0.6100000143051147,
+        0.012000000104308128,
+        1.0
+      ],
+      "invalid_normals": 0,
+      "degenerate_faces": 0,
+      "unit_mesh_scale": true,
+      "bounds_min_m": [
+        -2.7610135078430176,
+        -2.0700955390930176,
+        -0.01952386647462845
+      ],
+      "bounds_max_m": [
+        2.584437370300293,
+        2.0700783729553223,
+        4.280303478240967
+      ],
+      "wheel_checks": {
+        "FL": {
+          "centre_error_m": 2.6656007498500226e-07,
+          "independent_rotation_test": true,
+          "spin_child_meshes": 1
+        },
+        "FR": {
+          "centre_error_m": 2.6656007498500226e-07,
+          "independent_rotation_test": true,
+          "spin_child_meshes": 1
+        },
+        "RL": {
+          "centre_error_m": 2.6656007498500226e-07,
+          "independent_rotation_test": true,
+          "spin_child_meshes": 1
+        },
+        "RR": {
+          "centre_error_m": 2.6656007498500226e-07,
+          "independent_rotation_test": true,
+          "spin_child_meshes": 1
+        }
+      },
+      "suspension_checks": {
+        "FL": {
+          "endpoint_error_below_m": 1e-05,
+          "separate_shock_mesh": true
+        },
+        "FR": {
+          "endpoint_error_below_m": 1e-05,
+          "separate_shock_mesh": true
+        },
+        "RL": {
+          "endpoint_error_below_m": 1e-05,
+          "separate_shock_mesh": true
+        },
+        "RR": {
+          "endpoint_error_below_m": 1e-05,
+          "separate_shock_mesh": true
+        }
+      }
+    },
+    {
+      "lod": 1,
+      "filename": "DiggerDan_LOD1.fbx",
+      "passed": true,
+      "triangles": 16144,
+      "source_triangles": 16178,
+      "roundtrip_face_count_delta": -34,
+      "meshes": 12,
+      "missing_materials": [],
+      "construction_yellow_rgba": [
+        1.0,
+        0.6100000143051147,
+        0.012000000104308128,
+        1.0
+      ],
+      "invalid_normals": 0,
+      "degenerate_faces": 0,
+      "unit_mesh_scale": true,
+      "bounds_min_m": [
+        -2.756640911102295,
+        -2.0724828243255615,
+        -0.008670695126056671
+      ],
+      "bounds_max_m": [
+        2.573000907897949,
+        2.0719635486602783,
+        4.241666793823242
+      ],
+      "wheel_checks": {
+        "FL": {
+          "centre_error_m": 2.6656007498500226e-07,
+          "independent_rotation_test": true,
+          "spin_child_meshes": 1
+        },
+        "FR": {
+          "centre_error_m": 2.6656007498500226e-07,
+          "independent_rotation_test": true,
+          "spin_child_meshes": 1
+        },
+        "RL": {
+          "centre_error_m": 2.6656007498500226e-07,
+          "independent_rotation_test": true,
+          "spin_child_meshes": 1
+        },
+        "RR": {
+          "centre_error_m": 2.6656007498500226e-07,
+          "independent_rotation_test": true,
+          "spin_child_meshes": 1
+        }
+      },
+      "suspension_checks": {
+        "FL": {
+          "endpoint_error_below_m": 1e-05,
+          "separate_shock_mesh": true
+        },
+        "FR": {
+          "endpoint_error_below_m": 1e-05,
+          "separate_shock_mesh": true
+        },
+        "RL": {
+          "endpoint_error_below_m": 1e-05,
+          "separate_shock_mesh": true
+        },
+        "RR": {
+          "endpoint_error_below_m": 1e-05,
+          "separate_shock_mesh": true
+        }
+      }
+    },
+    {
+      "lod": 2,
+      "filename": "DiggerDan_LOD2.fbx",
+      "passed": true,
+      "triangles": 5892,
+      "source_triangles": 5894,
+      "roundtrip_face_count_delta": -2,
+      "meshes": 12,
+      "missing_materials": [],
+      "construction_yellow_rgba": [
+        1.0,
+        0.6100000143051147,
+        0.012000000104308128,
+        1.0
+      ],
+      "invalid_normals": 0,
+      "degenerate_faces": 0,
+      "unit_mesh_scale": true,
+      "bounds_min_m": [
+        -2.7639999389648438,
+        -2.069999933242798,
+        -0.026309125125408173
+      ],
+      "bounds_max_m": [
+        2.5867953300476074,
+        2.070000410079956,
+        4.285000324249268
+      ],
+      "wheel_checks": {
+        "FL": {
+          "centre_error_m": 2.6656007498500226e-07,
+          "independent_rotation_test": true,
+          "spin_child_meshes": 1
+        },
+        "FR": {
+          "centre_error_m": 2.6656007498500226e-07,
+          "independent_rotation_test": true,
+          "spin_child_meshes": 1
+        },
+        "RL": {
+          "centre_error_m": 2.6656007498500226e-07,
+          "independent_rotation_test": true,
+          "spin_child_meshes": 1
+        },
+        "RR": {
+          "centre_error_m": 2.6656007498500226e-07,
+          "independent_rotation_test": true,
+          "spin_child_meshes": 1
+        }
+      },
+      "suspension_checks": {
+        "FL": {
+          "endpoint_error_below_m": 1e-05,
+          "separate_shock_mesh": true
+        },
+        "FR": {
+          "endpoint_error_below_m": 1e-05,
+          "separate_shock_mesh": true
+        },
+        "RL": {
+          "endpoint_error_below_m": 1e-05,
+          "separate_shock_mesh": true
+        },
+        "RR": {
+          "endpoint_error_below_m": 1e-05,
+          "separate_shock_mesh": true
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "These are Blender FBX roundtrip checks, not Unity importer or iPad runtime validation.",
+    "No collider or runtime physics test performed by this model-building task."
+  ]
+}
