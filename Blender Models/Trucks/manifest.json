@@ -1,0 +1,102 @@
+[
+  {
+    "id": "01-flame-pickup",
+    "title": "Red flame pickup",
+    "source": "/Users/michaelbaxter/Downloads/ChatGPT Image Jul 18, 2026, 01_09_00 PM (1).png",
+    "reference_file": "01-flame-pickup.png",
+    "sha256": "a957108b15511f345561710637ce0fe1996ca41c78d9c559e72c4df6230a2c43",
+    "roster_mapping": "El Toro Loco / classic",
+    "visual_notes": "Rounded cab and fenders; chrome grille and exhausts; flame paint.",
+    "status": "concept reference only"
+  },
+  {
+    "id": "02-ice-truck",
+    "title": "Blue ice truck",
+    "source": "/Users/michaelbaxter/Downloads/ChatGPT Image Jul 18, 2026, 01_09_00 PM (2).png",
+    "reference_file": "02-ice-truck.png",
+    "sha256": "5eae037f8f5aa24537ef7212f828f5c050d543c15672163cce03990ef4bbf612",
+    "roster_mapping": "Ice Freeze / dino (legacy internal identifier)",
+    "visual_notes": "Faceted icy body; pointed grille; pale blue accents.",
+    "status": "concept reference only"
+  },
+  {
+    "id": "03-dinosaur-truck",
+    "title": "Green dinosaur truck",
+    "source": "/Users/michaelbaxter/Downloads/ChatGPT Image Jul 18, 2026, 01_09_01 PM (3).png",
+    "reference_file": "03-dinosaur-truck.png",
+    "sha256": "2c88ea5e21ccd08eb077abeb371680474c1dd4a3a60f80ead1452ef895f5daa0",
+    "roster_mapping": "Distinct concept; no unambiguous existing roster match",
+    "visual_notes": "Horned hood; raised scale plates; dorsal spikes. Keep separate from the blue ice truck.",
+    "status": "concept reference only"
+  },
+  {
+    "id": "04-shark-truck",
+    "title": "Blue shark truck",
+    "source": "/Users/michaelbaxter/Downloads/ChatGPT Image Jul 18, 2026, 01_09_01 PM (4).png",
+    "reference_file": "04-shark-truck.png",
+    "sha256": "63adcee49181106beb3556838a09753eb4e6671c4a661843bd8cfe004519d542",
+    "roster_mapping": "Sharkbite / shark",
+    "visual_notes": "Shaped snout; dorsal and tail fins; white belly and wave trim.",
+    "status": "concept reference only"
+  },
+  {
+    "id": "05-construction-truck",
+    "title": "Yellow construction truck",
+    "source": "/Users/michaelbaxter/Downloads/ChatGPT Image Jul 18, 2026, 01_09_01 PM (5).png",
+    "reference_file": "05-construction-truck.png",
+    "sha256": "7d69372e90a2e97bf060f4eee700dedfad25c1b629da4e8b93820d94e995efff",
+    "roster_mapping": "Digger Dan / digger",
+    "visual_notes": "Heavy bumper; hazard stripes; squared cab and work lights.",
+    "status": "concept reference only"
+  },
+  {
+    "id": "06-lightning-truck",
+    "title": "Blue and yellow lightning truck",
+    "source": "/Users/michaelbaxter/Downloads/ChatGPT Image Jul 18, 2026, 01_09_01 PM (6).png",
+    "reference_file": "06-lightning-truck.png",
+    "sha256": "2ab753283fc6a1fb61bd90ee602108b1d4565878c378706751f6f1af670daff2",
+    "roster_mapping": "Thunder Volt / volt (provisional visual match)",
+    "visual_notes": "Bolt panels; sport body and rear spoiler. Existing code used a different yellow/black visual description.",
+    "status": "concept reference only"
+  },
+  {
+    "id": "07-purple-star-truck",
+    "title": "Purple star truck",
+    "source": "/Users/michaelbaxter/Downloads/ChatGPT Image Jul 18, 2026, 01_09_01 PM (7).png",
+    "reference_file": "07-purple-star-truck.png",
+    "sha256": "5726f5dfd6af27d4517f89f55a1a2a43600281d64a62bb69816aa7aff8483003",
+    "roster_mapping": "Rocket Rumble / rocket",
+    "visual_notes": "Star emblems; cyan light strips; rounded futuristic body.",
+    "status": "concept reference only"
+  },
+  {
+    "id": "08-jungle-truck",
+    "title": "Green jungle truck",
+    "source": "/Users/michaelbaxter/Downloads/ChatGPT Image Jul 18, 2026, 01_09_01 PM (8).png",
+    "reference_file": "08-jungle-truck.png",
+    "sha256": "d5a550d2600581504227b4b25a1d3b5138469b504197b18a189859109134bab7",
+    "roster_mapping": "Jungle Crusher / jungle",
+    "visual_notes": "Leaf-pattern body panels; tan brush bars; roof lights.",
+    "status": "concept reference only"
+  },
+  {
+    "id": "09-knight-truck",
+    "title": "Blue and gold knight truck",
+    "source": "/Users/michaelbaxter/Downloads/ChatGPT Image Jul 18, 2026, 01_09_01 PM (9).png",
+    "reference_file": "09-knight-truck.png",
+    "sha256": "7fb36e89585a9f31cc61f232de948282bc01dc4acf89e79a6d1e10f5141bbffb",
+    "roster_mapping": "Sir Smash-a-Lot / knight",
+    "visual_notes": "Helmet cab; shield doors; crenellated rear towers.",
+    "status": "concept reference only"
+  },
+  {
+    "id": "10-candy-truck",
+    "title": "Coral candy truck",
+    "source": "/Users/michaelbaxter/Downloads/ChatGPT Image Jul 18, 2026, 01_09_01 PM (10).png",
+    "reference_file": "10-candy-truck.png",
+    "sha256": "6cd2838c93c5aa21ab2fe70a804f1d82f4cf1992f18f1731a36ed60e73610b3c",
+    "roster_mapping": "Candy Crush / candy",
+    "visual_notes": "Curved beetle body; raised swirls; cream trim and teal chassis.",
+    "status": "concept reference only"
+  }
+]
